@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 
-const emojiSet = ['🌸', '🌷', '💮', '🌺', '💗', '✿']
+const emojiSet = ['🌸', '🌷', '💮', '🌺', '💗', '✿', '🏵️','🌻','😘']
 
 export default function Confetti({ triggerOnMount }) {
   const canvasRef = useRef(null)
@@ -61,7 +61,7 @@ export default function Confetti({ triggerOnMount }) {
 
   useEffect(() => {
     if (triggerOnMount) {
-      const t = setTimeout(burst, 400)
+      const t = setTimeout(burst, 4000)
       return () => clearTimeout(t)
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps

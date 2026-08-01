@@ -6,7 +6,7 @@ const noteTexts = [
   'You make ordinary days feel special.',
   'I still get excited when I see your name pop up.',
   "You're the best part of my day, every day.",
-  'I love the way you see the world.',
+  'I love the way you make me feel alive.',
   'Being with you feels like home.',
 ]
 
